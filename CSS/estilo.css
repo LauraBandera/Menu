@@ -1,0 +1,70 @@
+html{
+    box-sizing: border-box;
+}
+*{
+    box-sizing: inherit;
+}
+
+#l1{
+    border:1px solid #7c7c7c;
+    border-bottom: none;
+    width: 20%;
+    /*Para colocar en el centro de la pantalla un elemento de bloque*/
+    margin:0 auto;
+    list-style: none;
+    padding: 0;
+}
+
+h2{
+    /*border: 1px solid black;*/
+    /*Para colocar en el centro un elemento de línea*/
+    text-align: center;
+}
+
+#l1 li{
+    border-bottom: 1px solid #7c7c7c;
+    background-color: #f4f4f4;
+}
+
+#l1 li a{
+    text-decoration: none; 
+    color: #333;
+    padding: 0.5em;
+    display: block;
+}
+
+#l1 li a:hover, li a:active{
+    background-color: #CCC; 
+    color: white;
+}
+
+/*PROPIEDAS LISTA L2*/
+
+#l2{
+    border: 1px solid #7c7c7c;
+    width: 80%;
+    margin: 0 auto;
+    list-style: none;
+    padding: 0;
+    overflow: hidden;
+    border-left: none;
+}
+
+#l2 li{
+    width: 20%;
+    background-color: #f4f4f4;
+    float: left;
+    border-left: 1px solid #7c7c7c;
+}
+
+#l2 li a{
+    text-decoration: none;
+    color: #333;
+    padding: 0.5em;
+    display: block;
+}
+
+#l2 li a:hover, li a:active{
+    background-color: #CCC; 
+    color: white;
+}
